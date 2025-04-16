@@ -1,0 +1,13 @@
+{
+  "id": "artikel-3",
+  "judul": "Cara Membuat Website Sederhana dengan HTML, CSS, dan JavaScript",
+  "tanggal": "2025-04-16",
+  "penulis": "Qarslan",
+  "isi": [
+    "Membuat website sederhana adalah langkah awal yang tepat untuk belajar pengembangan web. Dengan memahami dasar HTML, CSS, dan JavaScript, kamu sudah bisa membuat halaman web yang fungsional dan menarik.",
+    "Pertama, gunakan HTML untuk membuat struktur dasar halaman seperti header, paragraf, dan tombol. HTML berfungsi sebagai kerangka utama yang menyusun elemen-elemen konten.",
+    "Kedua, tambahkan CSS untuk mempercantik tampilan. Kamu bisa mengatur warna, ukuran teks, jarak antar elemen, dan layout secara keseluruhan agar halaman terlihat lebih rapi dan menarik di berbagai perangkat.",
+    "Terakhir, gunakan JavaScript untuk menambahkan interaktivitas. Misalnya, membuat tombol yang bisa merespons klik, menampilkan popup, atau mengambil data dari server menggunakan fetch API.",
+    "Dengan kombinasi ketiga teknologi ini, kamu bisa membuat website sederhana yang bisa diakses melalui browser dan menjadi dasar kuat sebelum masuk ke tahap pengembangan yang lebih kompleks seperti framework atau backend."
+  ]
+}
