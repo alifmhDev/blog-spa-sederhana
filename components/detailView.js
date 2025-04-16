@@ -12,7 +12,7 @@ function renderDetailView(id) {
             ${data.isi.map(paragraf => `<p>${paragraf}</p>`).join('')}
           </div>
           <br>
-          <a href="index.html">← Kembali</a>
+          <a href="https://blog-spa-sederhana.vercel.app">← Kembali</a>
         `;
       })
       .catch(error => {
