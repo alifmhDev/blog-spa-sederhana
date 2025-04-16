@@ -1,0 +1,12 @@
+{
+    "id": "artikel-2",
+    "judul": "Cara Belajar JavaScript dari Nol",
+    "tanggal": "2025-04-15",
+    "penulis": "Qarslan",
+    "isi": [
+      "JavaScript adalah bahasa penting untuk web modern.",
+      "Mulailah dari memahami dasar seperti variabel, fungsi, dan event.",
+      "Setelah itu, belajar manipulasi DOM dan fetch API."
+    ]
+  }
+  

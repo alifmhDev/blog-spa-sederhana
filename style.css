@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6dee6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(250, 255, 255);
+}
+
+.view {
+    margin-top: 20px;
+}
+
+/* List View */
+.artikel-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.artikel-card:hover {
+    transform: translateY(-2px);
+    background-color: #f0f0f0;
+}
+
+.artikel-card h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.artikel-card .meta {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Detail View */
+.detail-judul {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detail-meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.detail-isi p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+/* Media Query untuk perangkat mobile */
+@media (max-width: 768px) {
+    /* Ubah ukuran dan padding pada #app agar lebih sesuai untuk layar kecil */
+    #app {
+        padding: 10px;
+    }
+
+    /* Ubah ukuran font pada artikel card untuk kenyamanan pembacaan */
+    .artikel-card h2 {
+        font-size: 18px;
+    }
+
+    /* Memastikan margin antara artikel-card lebih rapat di perangkat kecil */
+    .artikel-card {
+        padding: 15px;
+        margin-bottom: 12px;
+    }
+
+    /* Menyesuaikan ukuran font untuk meta informasi artikel */
+    .artikel-card .meta {
+        font-size: 10px;
+    }
+
+    /* Menyesuaikan judul dan metadata pada halaman detail */
+    .detail-judul {
+        font-size: 24px;
+    }
+
+    .detail-meta {
+        font-size: 12px;
+    }
+}
+
+/* Media Query untuk perangkat mobile lebih kecil (misalnya ponsel) */
+@media (max-width: 480px) {
+    /* Mengurangi padding lebih jauh untuk tampilan lebih kompak */
+    #app {
+        padding: 5px;
+    }
+
+    /* Menurunkan ukuran font artikel-card lebih jauh agar pas di layar kecil */
+    .artikel-card h2 {
+        font-size: 16px;
+    }
+
+    /* Mengurangi margin bawah artikel-card untuk menyesuaikan */
+    .artikel-card {
+        padding: 12px;
+        margin-bottom: 8px;
+    }
+
+    /* Font lebih kecil untuk meta informasi artikel */
+    .artikel-card .meta {
+        font-size: 8px;
+    }
+
+    /* Ukuran font judul dan metadata di detail view lebih kecil */
+    .detail-judul {
+        font-size: 20px;
+    }
+
+    .detail-meta {
+        font-size: 10px;
+    }
+
+    .detail-isi p {
+        font-size: 14px;
+    }
+}
